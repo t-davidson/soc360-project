@@ -18,7 +18,7 @@ ui <- fluidPage(
 
         selectInput(inputId = "var_z",
                     label = "Select variable for color:",
-                    choices = colnames(data)),
+                    choices = colnames(data)[-1]),
 ),
     mainPanel(
 
